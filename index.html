@@ -11,18 +11,17 @@
     <!-- Header and Navigatin -->
     <header>
       <h1>Manogya Bhattarai</h1>
+      <nav>
+        <a href="#aboutMe">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#acontactMe">Contact Me</a>
+        <a href="#resume">Resume</a>
+      </nav>
     </header>
-    <nav>
-      <a href="#aboutMe">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#acontactMe">Contact Me</a>
-      <a href="#resume">Resume</a>
-    </nav>
-
+    <!-- CSS move this to separate file later -->
     <style>
       header {
         display: flex;
-        justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
         background-color: #31343d;
@@ -31,10 +30,20 @@
         padding-bottom: 5px;
         padding-left: 80px;
       }
+
       nav {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+      }
+      nav a {
+        padding: 5px 10px;
+        color: #92cccd;
+        margin-right: 10px;
+        font-size: 1.5rem;
+      }
+      nav a:hover {
+        color: #ffffff;
       }
     </style>
   </body>

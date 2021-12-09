@@ -20,12 +20,18 @@
     </header>
     <!-- CSS move this to separate file later -->
     <style>
+      :root {
+        --main: #31343d;
+        --theme: #92cccd;
+        --white: #ffffff;
+      }
+
       header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        background-color: #31343d;
+        background-color: var(--main);
         padding-top: 5px;
         padding-right: 0px;
         padding-bottom: 5px;
@@ -33,8 +39,8 @@
       }
 
       header h1 {
-        background-color: #92cccd;
-        color: #31343d;
+        background-color: var(--theme);
+        color: var(--main);
         margin: 0;
         padding: 5px 10px 5px 30px;
       }
@@ -46,12 +52,12 @@
       }
       nav a {
         padding: 3% 10px 3% 0px;
-        color: #92cccd;
+        color: var(--theme);
         margin-right: 10px;
         font-size: 1.5rem;
       }
       nav a:hover {
-        color: #ffffff;
+        color: var(--white);
       }
     </style>
   </body>

@@ -1,9 +1,10 @@
+/* Variables for color */
 :root {
     --main: #31343d;
     --theme: #92cccd;
     --white: #ffffff;
   }
-
+/* Header styling start */
   header {
     display: flex;
     flex-direction: row;
@@ -22,7 +23,10 @@
     margin: 0;
     padding: 5px 10px 5px 30px;
   }
+  /* Header styling wnd */
 
+  
+  /* Navigation styling start */
   nav {
     display: flex;
     flex-direction: row;
@@ -37,12 +41,16 @@
   nav a:hover {
     color: var(--white);
   }
+    /* Navigation styling end */
 
-  .main-banner {
-    flex-direction: column;
-    justify-content: space-between;
+  
+/* Main banner start */
+.main-banner {
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  }
+/* Fixing image properties */
 .main-banner img {
     max-width: 100%;
     height: auto;
@@ -53,7 +61,10 @@
     margin-left: auto;
     margin-right: auto;
     }
+/* Main banner ends */
 
+
+/* Page Section Start */
 
 .page-section {
     display: flex;
@@ -64,10 +75,11 @@
 
 }
 .page-section > h2 {
-  line-height: ;
+  line-height: 10px;
 
 }
 
+/* spliting parts into flex */
 .page-section > div {
   flex: 0 0 75%;
 }

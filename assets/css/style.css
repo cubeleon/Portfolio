@@ -43,8 +43,24 @@
     justify-content: space-between;
 
   }
-    .main-banner img {
+.main-banner img {
     max-width: 100%;
     height: auto;
+}
+
+.main-page {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     }
+    
+
+.page-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
   }
+

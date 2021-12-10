@@ -23,58 +23,36 @@
       <img src="assets/Artboard 6.png" />
     </section>
 
+    <!-- Main Page -->
+    <main class="main-page">
+        <!-- About Me -->
+        <section class="page-section" id="aboutMe">
+          <h2>About Me</h2>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae labore quaerat ipsum perspiciatis! Fuga accusantium enim labore ipsum magnam repellat dolor, fugiat quasi voluptas, voluptatibus autem cupiditate error quae!
+            </p>
+        </section> 
+    </main>
+
     <!-- CSS move this to separate file later -->
     <style>
-      :root {
-        --main: #31343d;
-        --theme: #92cccd;
-        --white: #ffffff;
-      }
 
-      header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        background-color: var(--main);
-        padding-top: 5px;
-        padding-right: 0px;
-        padding-bottom: 5px;
-        padding-left: 0px;
-      }
-
-      header h1 {
-        background-color: var(--theme);
-        color: var(--main);
-        margin: 0;
-        padding: 5px 10px 5px 30px;
-      }
-
-      nav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      nav a {
-        padding: 3% 10px 3% 0px;
-        color: var(--theme);
-        margin-right: 10px;
-        font-size: 1.5rem;
-      }
-      nav a:hover {
-        color: var(--white);
-      }
-
-      .main-banner {
-        flex-direction: column;
-        justify-content: space-between;
-
-      }
-        .main-banner img {
-        max-width: 100%;
-        height: auto;
+        .main-page {
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
         }
-      }
+        
+
+        .page-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        
+      
     </style>
   </body>
 </html>
